@@ -1,6 +1,6 @@
 """
 VideoPlayerBot, Telegram Video Chat Bot
-Copyright (c) 2021  Asm Safone <https://github.com/AsmSafone>
+Copyright (c) 2021  Asm Safone <https://github.com/Rishabhbhan5>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -42,7 +42,7 @@ async def nopm(client, message):
             )
         except BotInlineDisabled:
             print(f"[WARN] - Inline Mode for @{USERNAME} is not enabled. Enable from @Botfather to enable PM Permit !")
-            await message.reply_text(f"{REPLY_MESSAGE}\n\n<b>© Powered By : \n@AsmSafone | @SafoTheBot 👑</b>")
+            await message.reply_text(f"{REPLY_MESSAGE}\n\n<b>© Powered By : \n@RishabhHelpGroup | @RishabhHelpBot 👑</b>")
         except Exception as e:
             print(e)
             pass
